@@ -39,8 +39,15 @@ Workaround: Create a new user, `VNC User` aka `vncuser`. We don't *really* need 
 
 Easy fix: set the password by hand by hashing it into the preferences file. See http://hints.macworld.com/article.php?story=20071103011608872.
 
+## Connect
+
+Finder - Go - Connect to Server - `vnc://..tcp.ngrok.io:...` - when asked "How would you like to connect?" choose "Share the display"
+
+![CleanShot 2023-02-04 at 17 56 07@2x](https://user-images.githubusercontent.com/125105/216753819-bbea5569-cbde-4989-bf78-9dca7d256992.png)
+
 ## VNC is slow.
 Well, this thing isn't exactly GPU accelerated. It's running on an ESXi powered Mac sitting at MacStadium...
+Try teamviewer.
 
 ----
 # fastmac
